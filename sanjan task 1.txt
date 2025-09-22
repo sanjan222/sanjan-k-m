@@ -1,0 +1,20 @@
+C:\Users\sanja>nmap -sS 
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 20:22 +0530
+Nmap scan report for 10.229.246.244
+Host is up (0.0069s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 4E:51:00:8F:1F:B9 (Unknown)
+
+Nmap scan report for 10.229.246.241
+Host is up (0.0016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 10.39 seconds
