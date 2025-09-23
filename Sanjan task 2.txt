@@ -1,0 +1,25 @@
+PHISHING ATTACK
+
+Once the alert triggered on the incident review dashboard, we will start validating the reputation of sender domaining associated ip address by using offline analysis method.
+
+·        which include checking the reputation using OSINT Tool like Virus total, Abuse IP, MS Tool box, IP vault, Intelligent tool.
+
+·       The MS365 Defender tool as ESA through which we will perform the complete email analysis.
+
+·       Once we login to defender under email and collaboration in explorer we can filter out the report the email by using subject line sender mail address and sender domain.
+
+·       Once we filter out the detected email, we use to open the email in a tab to perform the complete analysis.
+
+·       In analysis we will validate the sender and recipient detail followed by checking the return path and return path domain to validate whether the email is spoofing or not.
+
+·       Then we will validate the email authentication SPF, DKIM, DMARK.
+
+·       Where the SPF stands for (Sender policy framework) which helps to authenticated user whether mail came from the authenticated user or not by comparing to domain name to IP address.
+
+·       DKIM stand for (Domain key identified mail), which help to validating the integrity of the mail to make sure the mail is not tampering while flowing to defend mail server by checking the cryptography signature.
+
+·       In the mean time we will do the header analysis using Microsoft message header analysis apart from this we will also validate the other entities like attachments and URL.
+
+·       Once we click detected attachments the defender will give the analysis details and we can also perform the offline analysis by capturing hash value of detected file.
+
+·       In the same way we analysis the URL detected in the reported mail.
